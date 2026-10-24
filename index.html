@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RunCoach — plan d'entraînement marathon et parcours sur ta montre</title>
+<meta name="description" content="RunCoach construit un plan d'entraînement marathon personnalisé, analyse chaque course et envoie le parcours de la course sur ta montre Garmin.">
+<link rel="icon" href="assets/icon-300.png">
+<link rel="apple-touch-icon" href="assets/icon-300.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <img src="assets/icon-300.png" alt="RunCoach">
+    <span class="name">RunCoach</span>
+    <nav>
+      <a href="privacy.html">Confidentialité</a>
+      <a href="mailto:vtndenis@gmail.com">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <div class="hero">
+      <img src="assets/icon-300.png" alt="Icône RunCoach">
+      <div class="text">
+        <h1>Ton plan marathon, du premier footing à la ligne d'arrivée.</h1>
+        <p class="lead">
+          RunCoach prépare un plan d'entraînement adapté à ton niveau et à ton agenda,
+          analyse chacune de tes courses, et envoie le parcours de l'épreuve
+          directement sur ta montre Garmin.
+        </p>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Un plan qui s'adapte</h3>
+        <p>Allures, volumes et séances recalibrés chaque semaine selon ce que tu as réellement couru.</p>
+      </div>
+      <div class="card">
+        <h3>Analyse de chaque sortie</h3>
+        <p>Allure, fréquence cardiaque, dénivelé, régularité : ce qui a marché, et ce qu'on ajuste ensuite.</p>
+      </div>
+      <div class="card">
+        <h3>Le parcours sur la montre</h3>
+        <p>La trace du marathon est publiée dans ton compte Garmin et apparaît dans le menu Parcours de ta montre après synchronisation.</p>
+      </div>
+    </div>
+
+    <h2>Comment RunCoach utilise Garmin</h2>
+    <p>
+      RunCoach se connecte à ton compte Garmin avec le programme
+      <strong>Garmin Connect Developer</strong>, via OAuth 2.0. Tu autorises explicitement
+      l'accès, et tu peux le révoquer à tout moment depuis Garmin Connect
+      (<em>Paramètres → Applications tierces</em>) ou depuis l'application.
+    </p>
+    <table class="summary">
+      <tr><th>API Activity</th><td>Lecture de tes activités : distance, durée, allure, fréquence cardiaque, cadence, dénivelé et trace GPS. Utilisée pour construire et ajuster le plan, et pour l'analyse d'après-course.</td></tr>
+      <tr><th>API Courses</th><td>Publication du parcours de la course dans ton compte Garmin pour qu'il soit disponible sur ta montre.</td></tr>
+    </table>
+    <div class="note">
+      <p>
+        RunCoach ne vend aucune donnée, ne les utilise pas à des fins publicitaires et
+        ne s'en sert pas pour entraîner des modèles d'intelligence artificielle.
+        Le détail complet figure dans la <a href="privacy.html">politique de confidentialité</a>.
+      </p>
+    </div>
+
+    <h2>Disponibilité</h2>
+    <p>
+      RunCoach est en phase de test sur iOS, avec un accès sur invitation.
+      Écris-nous si tu prépares un marathon et veux essayer.
+    </p>
+
+    <h2>Éditeur</h2>
+    <p>
+      RunCoach est édité par <strong>Denis Vautrin</strong>, France.<br>
+      Contact : <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>
+    </p>
+
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Denis Vautrin</span>
+    <a href="privacy.html">Politique de confidentialité</a>
+    <span>RunCoach n'est pas affilié à Garmin. Garmin® est une marque déposée de Garmin Ltd.</span>
+  </div>
+</footer>
+
+</body>
+</html>

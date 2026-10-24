@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — RunCoach</title>
+<meta name="description" content="Comment RunCoach collecte, utilise et protège les données Garmin et les données d'entraînement, et comment exercer tes droits.">
+<link rel="icon" href="assets/icon-300.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <img src="assets/icon-300.png" alt="RunCoach">
+    <span class="name">RunCoach</span>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="#english">English</a>
+    </nav>
+  </div>
+</header>
+
+<main class="legal">
+  <div class="wrap">
+
+    <h1>Politique de confidentialité</h1>
+    <p class="muted">Dernière mise à jour : 24 octobre 2026 · Entrée en vigueur : 24 octobre 2026</p>
+
+    <p class="lead">
+      Cette politique explique quelles données RunCoach reçoit de Garmin, ce qu'il en fait,
+      qui les traite, combien de temps elles sont conservées et comment tu peux les
+      consulter, les exporter ou les supprimer.
+    </p>
+
+    <table class="summary">
+      <tr><th>Données Garmin reçues</th><td>Activités (distance, durée, allure, fréquence cardiaque, cadence, dénivelé, trace GPS) et nom d'affichage du profil.</td></tr>
+      <tr><th>Données envoyées à Garmin</th><td>Le parcours de la course, pour qu'il apparaisse sur ta montre.</td></tr>
+      <tr><th>Vendues ?</th><td><strong>Jamais.</strong> Aucune donnée n'est vendue, louée ou transmise à des annonceurs.</td></tr>
+      <tr><th>Utilisées pour entraîner une IA ?</th><td><strong>Jamais.</strong> Les données Garmin ne servent ni à entraîner, ni à évaluer, ni à améliorer un modèle.</td></tr>
+      <tr><th>Conservation</th><td>Pendant la vie du compte, puis suppression sous 30 jours.</td></tr>
+      <tr><th>Contact</th><td><a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a></td></tr>
+    </table>
+
+    <div class="toc">
+      <strong>Sommaire</strong>
+      <ol>
+        <li><a href="#responsable">Responsable du traitement</a></li>
+        <li><a href="#donnees">Données traitées</a></li>
+        <li><a href="#finalites">Pourquoi et sur quelle base légale</a></li>
+        <li><a href="#ia">Intelligence artificielle et consentement</a></li>
+        <li><a href="#tiers">Qui reçoit les données</a></li>
+        <li><a href="#jamais">Ce que nous ne faisons pas</a></li>
+        <li><a href="#conservation">Durée de conservation</a></li>
+        <li><a href="#securite">Sécurité</a></li>
+        <li><a href="#droits">Tes droits</a></li>
+        <li><a href="#revoquer">Déconnecter Garmin et supprimer le compte</a></li>
+        <li><a href="#mineurs">Mineurs</a></li>
+        <li><a href="#modifications">Modifications</a></li>
+      </ol>
+    </div>
+
+    <h2 id="responsable">1. Responsable du traitement</h2>
+    <p>
+      Le responsable du traitement est <strong>Denis Vautrin</strong>, France.<br>
+      Contact pour toute question relative à tes données : <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>.
+    </p>
+
+    <h2 id="donnees">2. Données traitées</h2>
+    <h3>2.1 Données reçues de Garmin (API Activity)</h3>
+    <p>Après ton autorisation explicite via OAuth 2.0, lorsque tu synchronises ta montre :</p>
+    <ul>
+      <li>identifiant de l'activité, type de sport, date et durée ;</li>
+      <li>distance, allure, vitesse, dénivelé, calories ;</li>
+      <li>fréquence cardiaque (moyenne, maximale, séries), cadence, puissance si tu utilises un capteur ;</li>
+      <li>trace GPS de l'activité ;</li>
+      <li>nom d'affichage de ton profil Garmin (pour associer les activités au bon compte RunCoach).</li>
+    </ul>
+    <h3>2.2 Données envoyées à Garmin (API Courses)</h3>
+    <p>
+      Le parcours de la course (fichier GPX : trace, points de passage, profil) est publié dans
+      ton compte Garmin pour être disponible sur ta montre. Aucune donnée d'un autre utilisateur
+      n'est concernée.
+    </p>
+    <h3>2.3 Données de ton compte RunCoach</h3>
+    <p>
+      Adresse email, objectif de course et date, plan d'entraînement généré, réponses aux
+      questionnaires d'entraînement, préférences (unités, notifications). Si tu te connectes
+      avec un compte tiers (Apple, Google), nous recevons l'identifiant technique et l'email
+      associés à ce compte.
+    </p>
+
+    <h2 id="finalites">3. Pourquoi et sur quelle base légale</h2>
+    <table class="summary">
+      <tr><th>Finalité</th><th>Base légale</th></tr>
+      <tr><td>Construire et ajuster ton plan d'entraînement à partir de tes activités</td><td>Exécution du contrat (le service que tu demandes)</td></tr>
+      <tr><td>Afficher l'analyse d'une course (allure, cœur, dénivelé, régularité)</td><td>Exécution du contrat</td></tr>
+      <tr><td>Publier le parcours de la course sur ta montre</td><td>Exécution du contrat, sur ton action explicite</td></tr>
+      <tr><td>Accéder à tes données Garmin</td><td>Ton consentement, donné via OAuth et révocable à tout moment</td></tr>
+      <tr><td>Analyses par un modèle de langage (§4)</td><td>Ton consentement explicite, révocable dans les réglages</td></tr>
+      <tr><td>Support par email</td><td>Intérêt légitime à répondre à ta demande</td></tr>
+    </table>
+
+    <h2 id="ia">4. Intelligence artificielle et consentement</h2>
+    <p>
+      RunCoach utilise un modèle de langage pour rédiger les analyses d'entraînement et proposer
+      des ajustements de plan. <strong>Cette fonction est optionnelle.</strong>
+    </p>
+    <ul>
+      <li><strong>Ce qui est transmis :</strong> un résumé chiffré de la séance ou de la semaine d'entraînement (distance, durée, allure, fréquence cardiaque, type de séance) et ton objectif de course. <strong>Ne sont jamais transmis :</strong> ton nom, ton email, ton identifiant Garmin, tes tokens d'accès, ta trace GPS nominative.</li>
+      <li><strong>À qui :</strong> à notre prestataire de modèle de langage (voir §5), uniquement le temps de générer la réponse.</li>
+      <li><strong>Consentement :</strong> la fonction est désactivée par défaut et ne s'active qu'après ton accord explicite dans l'application.</li>
+      <li><strong>Retrait :</strong> tu peux la désactiver à tout moment dans <em>Réglages → Analyse IA</em>, ou en écrivant à <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>. Le retrait prend effet immédiatement ; l'import de tes activités et l'envoi de parcours continuent de fonctionner sans elle.</li>
+      <li><strong>Aucun entraînement de modèle :</strong> ni les données Garmin, ni les données qui en sont dérivées ne servent à entraîner, évaluer ou améliorer un modèle d'IA.</li>
+    </ul>
+
+    <h2 id="tiers">5. Qui reçoit les données</h2>
+    <p>Nous ne partageons les données qu'avec les prestataires strictement nécessaires au service :</p>
+    <table class="summary">
+      <tr><th>Destinataire</th><th>Rôle</th><th>Données concernées</th></tr>
+      <tr><td>Garmin International, Inc. (États-Unis)</td><td>Source des activités, destination des parcours</td><td>Données d'activité et parcours, via les API officielles</td></tr>
+      <tr><td>Render Services, Inc. (États-Unis)</td><td>Hébergement du serveur et de la base de données</td><td>Toutes les données du compte et les tokens Garmin, chiffrés en transit</td></tr>
+      <tr><td>DeepSeek (Chine)</td><td>Modèle de langage pour l'analyse d'entraînement (§4)</td><td>Résumé chiffré de la séance uniquement, si tu actives la fonction</td></tr>
+      <tr><td>Expo (EAS, États-Unis)</td><td>Distribution de l'application et notifications push</td><td>Jeton de notification, version de l'application</td></tr>
+    </table>
+    <p class="muted">
+      Certains de ces prestataires sont situés hors de l'Union européenne ; les données peuvent
+      donc y être transférées. Si tu ne souhaites pas ce transfert, tu peux désactiver l'analyse
+      IA (§4) et supprimer ton compte (§10) : les fonctions de base ne nécessitent que
+      l'hébergement décrit ci-dessus.
+    </p>
+    <p>
+      Les clés d'API Garmin sont délivrées à l'éditeur de RunCoach uniquement. Elles ne sont
+      ni partagées, ni transférées, ni utilisées par un tiers.
+    </p>
+
+    <h2 id="jamais">6. Ce que nous ne faisons pas</h2>
+    <ul>
+      <li>Nous ne vendons ni ne louons tes données, et nous ne les partageons pas avec des annonceurs ou des courtiers en données.</li>
+      <li>Nous n'utilisons pas tes données Garmin pour entraîner, évaluer ou améliorer un modèle d'IA.</li>
+      <li>Nous ne publions pas tes activités ni ta trace GPS sur une plateforme publique.</li>
+      <li>Nous ne lisons pas tes données au-delà de ce que décrivent les finalités du §3.</li>
+    </ul>
+
+    <h2 id="conservation">7. Durée de conservation</h2>
+    <ul>
+      <li>Données de compte, activités importées et plans : conservés tant que ton compte existe.</li>
+      <li>Après une demande de suppression : effacement sous 30 jours, sauvegardes comprises.</li>
+      <li>Journaux techniques (erreurs, sécurité) : 90 jours maximum.</li>
+      <li>Tokens Garmin : conservés tant que l'autorisation est active, effacés immédiatement lors de la déconnexion.</li>
+    </ul>
+
+    <h2 id="securite">8. Sécurité</h2>
+    <p>
+      Les échanges avec Garmin et avec l'application se font en HTTPS. Les tokens d'accès Garmin
+      sont stockés côté serveur, jamais dans le navigateur ni dans un dépôt public. Les accès
+      internes sont limités à l'éditeur du service.
+    </p>
+
+    <h2 id="droits">9. Tes droits</h2>
+    <p>Conformément au RGPD, tu disposes des droits suivants :</p>
+    <ul>
+      <li><strong>Accès</strong> : savoir quelles données nous détenons sur toi.</li>
+      <li><strong>Rectification</strong> : corriger une donnée inexacte.</li>
+      <li><strong>Effacement</strong> : supprimer ton compte et les données associées.</li>
+      <li><strong>Portabilité</strong> : recevoir tes données dans un format lisible par machine (JSON, GPX).</li>
+      <li><strong>Limitation et opposition</strong> : restreindre ou refuser un traitement.</li>
+      <li><strong>Retrait du consentement</strong> : à tout moment, sans justification (accès Garmin, analyse IA).</li>
+    </ul>
+    <p>
+      Pour exercer un droit : <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>. Réponse sous
+      30 jours. Tu peux également introduire une réclamation auprès de la
+      <a href="https://www.cnil.fr" rel="noopener">CNIL</a>.
+    </p>
+
+    <h2 id="revoquer">10. Déconnecter Garmin et supprimer le compte</h2>
+    <ul>
+      <li><strong>Révoquer l'accès Garmin</strong> : dans Garmin Connect, <em>Paramètres → Applications tierces</em> → RunCoach → Supprimer l'accès. RunCoach perd immédiatement la possibilité de lire tes activités et de publier des parcours.</li>
+      <li><strong>Depuis RunCoach</strong> : <em>Réglages → Compte → Déconnecter Garmin</em>, ou <em>Supprimer mon compte</em>.</li>
+      <li><strong>Par email</strong> : une demande à <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a> suffit ; la suppression est effectuée sous 30 jours.</li>
+    </ul>
+
+    <h2 id="mineurs">11. Mineurs</h2>
+    <p>
+      RunCoach s'adresse aux personnes majeures pratiquant la course à pied. Le service n'est pas
+      destiné aux personnes de moins de 15 ans ; entre 15 et 18 ans, l'accord du représentant
+      légal est requis.
+    </p>
+
+    <h2 id="modifications">12. Modifications</h2>
+    <p>
+      Cette politique peut évoluer, notamment si une nouvelle API Garmin ou une nouvelle fonction
+      est ajoutée. La date de mise à jour figure en haut de page ; tout changement substantiel est
+      signalé dans l'application avant son entrée en vigueur.
+    </p>
+
+    <p class="muted">
+      RunCoach n'est ni affilié à Garmin, ni sponsorisé par Garmin. Garmin® et Garmin Connect® sont
+      des marques déposées de Garmin Ltd. ou de ses filiales.
+    </p>
+
+    <hr>
+
+    <h1 id="english">Privacy Policy (English)</h1>
+    <p class="muted">Last updated: 24 October 2026 · Effective: 24 October 2026</p>
+
+    <p class="lead">
+      This policy explains what data RunCoach receives from Garmin, what we do with it, who
+      processes it, how long we keep it, and how you can access, export or delete it.
+    </p>
+
+    <h2>1. Data controller</h2>
+    <p>
+      Denis Vautrin, France. Contact: <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>.
+    </p>
+
+    <h2>2. Data we receive from Garmin (Activity API)</h2>
+    <p>After your explicit OAuth 2.0 authorisation, when your device syncs:</p>
+    <ul>
+      <li>activity identifier, sport type, date, duration;</li>
+      <li>distance, pace, speed, elevation gain, calories;</li>
+      <li>heart rate (average, maximum, samples), cadence, power where a sensor is used;</li>
+      <li>the GPS track of the activity;</li>
+      <li>your Garmin profile display name, used to attach activities to your RunCoach account.</li>
+    </ul>
+
+    <h2>3. Data we send to Garmin (Courses API)</h2>
+    <p>
+      The race course (GPX file: track, course points, elevation profile) is published to your
+      Garmin Connect account so it becomes available on your device. No other user's data is
+      involved.
+    </p>
+
+    <h2>4. Purpose and legal basis</h2>
+    <table class="summary">
+      <tr><th>Purpose</th><th>Legal basis</th></tr>
+      <tr><td>Build and adapt your training plan from your activities</td><td>Performance of the service you request</td></tr>
+      <tr><td>Show post-run analysis</td><td>Performance of the service</td></tr>
+      <tr><td>Publish the race course to your device</td><td>Performance of the service, on your explicit action</td></tr>
+      <tr><td>Access your Garmin data</td><td>Your consent, given via OAuth and revocable at any time</td></tr>
+      <tr><td>AI-assisted analysis (see 5)</td><td>Your explicit consent, revocable in settings</td></tr>
+      <tr><td>Email support</td><td>Legitimate interest in answering you</td></tr>
+    </table>
+
+    <h2>5. Artificial intelligence and consent</h2>
+    <p>AI analysis is an optional feature.</p>
+    <ul>
+      <li><strong>What is sent:</strong> a numeric summary of the session or training week (distance, duration, pace, heart rate, session type) and your race goal. <strong>Never sent:</strong> your name, email, Garmin identifier, access tokens, or attributable GPS track.</li>
+      <li><strong>To whom:</strong> our language-model provider (see 6), only to generate the response.</li>
+      <li><strong>Consent:</strong> the feature is disabled by default and only enabled after your explicit opt-in in the app.</li>
+      <li><strong>Withdrawal:</strong> disable it at any time in <em>Settings → AI analysis</em>, or by email. Withdrawal takes effect immediately; importing activities and receiving courses keep working without it.</li>
+      <li><strong>No model training:</strong> Garmin data, and anything derived from it, is never used to train, evaluate or improve an AI model.</li>
+    </ul>
+
+    <h2>6. Who receives the data</h2>
+    <table class="summary">
+      <tr><th>Recipient</th><th>Role</th><th>Data</th></tr>
+      <tr><td>Garmin International, Inc. (USA)</td><td>Source of activities, destination of courses</td><td>Activity data and courses, through the official APIs</td></tr>
+      <tr><td>Render Services, Inc. (USA)</td><td>Server and database hosting</td><td>All account data and Garmin tokens, encrypted in transit</td></tr>
+      <tr><td>DeepSeek (China)</td><td>Language model for training analysis (5)</td><td>Numeric session summary only, if you enable the feature</td></tr>
+      <tr><td>Expo (EAS, USA)</td><td>App distribution and push notifications</td><td>Push token, app version</td></tr>
+    </table>
+    <p>
+      Some of these providers are located outside the European Union, so data may be transferred
+      there. If you do not want that transfer, you can disable AI analysis (5) and delete your
+      account (10); the core features only require the hosting described above.
+    </p>
+    <p>
+      Garmin API keys are issued to the RunCoach publisher only. They are not shared with,
+      transferred to, or used by any third party.
+    </p>
+
+    <h2>7. What we never do</h2>
+    <ul>
+      <li>We do not sell or rent your data, and we do not share it with advertisers or data brokers.</li>
+      <li>We do not use Garmin data to train, evaluate or improve AI models.</li>
+      <li>We do not publish your activities or GPS track publicly.</li>
+      <li>We do not access data beyond the purposes listed in 4.</li>
+    </ul>
+
+    <h2>8. Retention</h2>
+    <ul>
+      <li>Account data, imported activities and plans: kept while your account exists.</li>
+      <li>After a deletion request: erased within 30 days, backups included.</li>
+      <li>Technical logs: 90 days maximum.</li>
+      <li>Garmin tokens: kept while the authorisation is active, erased immediately on disconnect.</li>
+    </ul>
+
+    <h2>9. Your rights</h2>
+    <p>
+      Under the GDPR you may request access to your data, rectification, erasure, portability
+      (machine-readable format: JSON, GPX), restriction of or objection to processing, and you may
+      withdraw consent at any time. Write to
+      <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a>; we answer within 30 days. You may
+      also lodge a complaint with your supervisory authority (in France, the
+      <a href="https://www.cnil.fr" rel="noopener">CNIL</a>).
+    </p>
+
+    <h2>10. Disconnecting Garmin and deleting your account</h2>
+    <ul>
+      <li><strong>Revoke Garmin access:</strong> in Garmin Connect, <em>Settings → Third-party apps</em> → RunCoach → Remove access. RunCoach immediately loses the ability to read activities or publish courses.</li>
+      <li><strong>From RunCoach:</strong> <em>Settings → Account → Disconnect Garmin</em>, or <em>Delete my account</em>.</li>
+      <li><strong>By email:</strong> a request to <a href="mailto:vtndenis@gmail.com">vtndenis@gmail.com</a> is enough; deletion is completed within 30 days.</li>
+    </ul>
+
+    <h2>11. Minors</h2>
+    <p>
+      RunCoach targets adults who run. It is not intended for people under 15; between 15 and 18,
+      parental consent is required.
+    </p>
+
+    <h2>12. Changes</h2>
+    <p>
+      This policy may change, in particular if a new Garmin API or a new feature is added. The
+      update date is shown at the top; material changes are announced in the app before they take
+      effect.
+    </p>
+
+    <p class="muted">
+      RunCoach is not affiliated with or endorsed by Garmin. Garmin® and Garmin Connect® are
+      trademarks of Garmin Ltd. or its subsidiaries.
+    </p>
+
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Denis Vautrin</span>
+    <a href="index.html">Accueil</a>
+    <a href="mailto:vtndenis@gmail.com">Contact</a>
+  </div>
+</footer>
+
+</body>
+</html>
