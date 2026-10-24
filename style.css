@@ -111,7 +111,8 @@ footer.site .wrap { display: flex; gap: 16px; flex-wrap: wrap; }
 .lang a { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 14px; text-decoration: none; }
 table.summary { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 0.94rem; }
 table.summary th, table.summary td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
-table.summary th { color: var(--muted); font-weight: 600; }
+table.summary th { color: var(--muted); font-weight: 600; width: 34%; }
+table.summary td:only-child { width: 100%; }
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0b1220; --card: #111a2b; --ink: #e6edf7; --muted: #9fb0c7;
